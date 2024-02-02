@@ -19,6 +19,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', [BelajarController::class, 'index']);
+// Route::get('/', [BelajarController::class, 'index']);
 Route::get('/berita', [BelajarController::class, 'berita']);
 Route::resource('/belajar', PostController::class);
