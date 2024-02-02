@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-9">
             <a href="" class="btn btn-outline-primary mb-3">Add Image</a>
-            <table class="table table-bordered table-striped">
+            <table class="table table-bordered table-striped table-responsive-md">
                 <thead>
                     <tr class="text-center">
                         <th scope="col">Image</th>

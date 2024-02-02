@@ -22,3 +22,5 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', [BelajarController::class, 'index']);
 Route::get('/berita', [BelajarController::class, 'berita']);
 Route::resource('/belajar', PostController::class);
+
+Route::get('/clone', [BelajarController::class, 'clone_x']);

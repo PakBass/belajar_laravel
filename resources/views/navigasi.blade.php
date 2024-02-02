@@ -2,7 +2,7 @@
     <div class="px-3 py-2 text-bg-dark">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/"
+                <a href="{{ route('belajar.index') }}"
                     class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                     <h3>MyApp</h3>
                 </a>
@@ -17,11 +17,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link text-white">
+                        <a href="/clone" class="nav-link text-white">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#speedometer2" />
                             </svg>
-                            Dashboard
+                            Cloning X
                         </a>
                     </li>
                     <li>

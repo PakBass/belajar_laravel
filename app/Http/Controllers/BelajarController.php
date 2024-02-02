@@ -24,5 +24,12 @@ class BelajarController extends Controller
         ];
         return view('berita', $data);
     }
+
+    public function clone_x()
+    {
+        return view('clone_x.index', [
+            'title'     => "Clone X"
+        ]);
+    }
 }
 
