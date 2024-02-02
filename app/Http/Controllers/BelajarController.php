@@ -31,5 +31,11 @@ class BelajarController extends Controller
             'title'     => "Clone X"
         ]);
     }
+    public function latihan_b5()
+    {
+        return view('latihan.index', [
+            'title'     => "Latihan B5"
+        ]);
+    }
 }
 

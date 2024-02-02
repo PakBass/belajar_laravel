@@ -24,3 +24,4 @@ Route::get('/berita', [BelajarController::class, 'berita']);
 Route::resource('/belajar', PostController::class);
 
 Route::get('/clone', [BelajarController::class, 'clone_x']);
+Route::get('/latihan', [BelajarController::class, 'latihan_b5']);
