@@ -3,13 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
-            <h1>Belajar Laravel 10!</h1>
-            <h3>{{ $nama }}</h3>
-            <h3>{{ $total }}</h3>
-            <a href="/berita" class="btn btn-danger">Berita</a>
-        </div>
-        <div class="col-md-9">
+        <div class="col-md-12">
             <a href="" class="btn btn-outline-primary mb-3">Add Data</a>
             <table class="table table-bordered table-striped table-responsive-md">
                 <thead>
